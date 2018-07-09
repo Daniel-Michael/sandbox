@@ -1,0 +1,112 @@
+.clear {
+  float: clear;
+}
+
+html {
+  border: 2px solid #ccc;
+  width: 100%;
+  position: absolute;
+  padding: 1px;
+  margin: 1px auto;
+  border-radius: 5px;
+}
+
+p {
+  font-family: Courier;
+  float: left;
+  padding-top: : 2px;
+  margin: 10px;
+  color: white;
+}
+
+#logo {
+  float: left;
+  background-color: #00CC6A;
+  width: 25%;
+  height: 160px;
+  animation-name: tweenBetween;
+  animation-duration: 6s;
+  }
+  @keyframes tweenBetween {
+  25% {
+  background-color: #1abc9c;
+  }
+  50% {
+  background-color: #2ecc71;
+  }
+  75% {
+  background-color: #3498db;
+  }
+  100%
+  background-color: #9b59b6;
+  }
+
+#header {
+  position: relative;
+  float: right;
+  background-color: hsl(200,100%, 75%);
+  width: 75%;
+  height: 160px;
+}
+
+#menu {
+  background-color: #e67e22;
+  width: 100%;
+  height: 160px;
+  float: left;
+}
+
+#category {
+  background-color: #e74c3c;
+  width: 28%;
+  height: 640px;
+  float: left;
+}
+
+#content {
+  background-color: #9b59b6;
+  width: 72%;
+  height: 640px;
+  float: right;
+  animation-name: bigTween;
+  animation-duration: 12s;
+  }
+  @keyframes bigTween {
+  25% {
+  background-color: #8764b8;
+  }
+  50% {
+  background-color: #744da9;
+  }
+  75% {
+  background-color: #b146c2;
+  }
+  100% {
+  background-color: #881798;
+  }
+}
+
+#footer-one {
+background-color: #FF4343;
+width: 33%;
+height: 320px;
+float: left;
+position: relative;
+opacity: 0.5;
+}
+#footer-two {
+background-color: #f39c12;
+width: 33%;
+height: 320px;
+float: left;
+opacity: 0.5;
+}
+
+#footer-three {
+background-color: #d35400;
+width: 34%;
+height: 320px;
+float: right;
+position: relative;
+opacity: 0.5;
+}
